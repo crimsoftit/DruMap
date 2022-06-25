@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/customer"
+    android:gravity="top|bottom|center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:orientation="vertical">
+
+    <Button
+        android:id="@+id/customer"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        android:text="@string/i_m_a_customer"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="38dp" />
+
+    <Button
+        android:id="@+id/vendor"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        android:baselineAligned="false"
+        android:text="@string/i_m_a_vendor"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
